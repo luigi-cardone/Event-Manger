@@ -1,0 +1,30 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+body {
+  background-color: #241F1F;
+}
+header{
+  padding: 20px;
+  color: #FFFFFF;
+  font-family: "Recursive";
+  font-weight: 200;
+}
+
+h1{
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+h2{
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+h3{
+  font-family: 'Roboto';
+  font-weight: 200;
+}

@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Recursive';
+  src: local('Recursive'), url(./Fonts/Recursive/Recursive-Light.ttf) format('truetype');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Recursive';
+  src: local('Recursive'), url(./Fonts/Recursive/Recursive-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Recursive';
+  src: local('Recursive'), url(./Fonts/Recursive/Recursive-SemiBold.ttf) format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Recursive';
+  src: local('Recursive'), url(./Fonts/Recursive/Recursive-Bold.ttf) format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Recursive';
+  src: local('Recursive'), url(./Fonts/Recursive/Recursive-ExtraBold.ttf) format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url(./Fonts/Roboto/Roboto-Light.ttf) format('truetype');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url(./Fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url(./Fonts/Roboto/Roboto-Bold.ttf) format('truetype');
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

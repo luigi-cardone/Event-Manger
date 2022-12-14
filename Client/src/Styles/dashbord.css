@@ -3,14 +3,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 80vh;
     width: 100vw;
 }
 .event-banner{
     background: linear-gradient(171.02deg, rgba(135, 82, 238, 0.66) 3.21%, rgba(70, 19, 171, 0.62) 90.8%);
     box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.35);
     backdrop-filter: blur(3px);
-    /* Note: backdrop-filter has minimal browser support */
     width: 100%;
     height: 100%;
     display: flex;
@@ -29,20 +27,22 @@
 }
 
 .event-banner-info{
-    background-image: url("data:image/svg+xml,%3Csvg width='279' height='239' viewBox='0 0 279 239' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg filter='url(%23filter0_d_3_6)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M27.7139 138.404C16.7022 106.001 5.91707 68.0509 32.4582 39.5886C58.7185 11.4276 105.528 12.0431 145.985 11.5723C181.856 11.1549 218.177 15.3618 240.754 37.1649C263.756 59.3793 267.19 91.1928 260.415 122.084C253.093 155.473 238.728 191.182 203.134 208.703C166.98 226.501 124.11 220.408 89.1438 206.395C56.8151 193.439 37.7049 167.804 27.7139 138.404Z' fill='%23D9D9D9'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_d_3_6' x='0.914932' y='0.545151' width='277.59' height='238.137' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='4'/%3E%3CfeGaussianBlur stdDeviation='7.5'/%3E%3CfeComposite in2='hardAlpha' operator='out'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.35 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_3_6'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_3_6' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-color: #D9D9D9;
     width: 68%;
     height: 45vh;
     color: #241F1F;
     display: flex;
     flex-direction: column;
+    align-self: center;
+    margin-right: 50px;
     padding: 10px;
     font-size: 5.5vw;
 }
 
 .info-row{
+    display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .icon{
